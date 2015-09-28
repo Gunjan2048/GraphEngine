@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/Linearlayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_above="@+id/textView1"
+        android:orientation="vertical" >
+</LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextpie"
+        android:layout_width="175dp"
+        android:layout_height="40sp"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignRight="@+id/listView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="#DACBC9"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#2E1EDA"
+        android:text="Remove entery" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/button2"
+        android:background="#2E1EDA"
+        android:text="Reset" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/button2" >
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/listView1" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listView1"
+        android:layout_alignParentLeft="true"
+        android:background="#4076F5"
+        android:text="Data"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/buttonpie"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextpie"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/editTextpie"
+        android:layout_toRightOf="@+id/editText1"
+        android:background="#F7E80A"
+        android:text="Add" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listView1"
+        android:layout_alignTop="@+id/editTextpie"
+        android:layout_toRightOf="@+id/editTextpie"
+        android:background="#DACB10"
+        android:ems="10" />
+
+</RelativeLayout>

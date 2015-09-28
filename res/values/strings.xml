@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PlotEngine</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="OpenDrawer">Open</string>
+    <string name ="closeDrawer">close</string>
+    <string name ="button">button</string>
+    <string name ="graph1">Function1</string>
+     <string name ="graph2">Function2</string>
+      <string name ="graph3">Function3</string>
+       <string name ="graph4">Function4</string>
+       <string-array name ="spinner_content">
+          <item >Select function</item>
+           <item >Sine</item>
+           <item>cosine</item>
+           <item >Tangent</item>
+           <item >cosec</item>
+           <item >Sec</item>
+           <item >Cot</item>
+       </string-array>
+     <string name ="spinner_title">select function</string>
+     <string name ="prompt">select function</string>
+     <string name ="text">graph</string>
+     <string-array name ="operations">
+         <item >Operaton selection</item>
+         <item>Addition</item>
+         <item >Substruction</item>
+         <item >Multiplication</item>
+         <item >Division</item>
+         <item >Variable</item>
+     </string-array>
+     <string name ="erase">erase</string>
+     <string name ="remove">remove</string>
+     <string name ="OK">OK</string>
+     <string name ="Getgraph" >Continue...!</string>
+     <string-array name ="options" 
+    >
+    
+    <item >item 1</item>
+    <item >item 2</item>
+    <item >item 3</item>
+    <item >item 4</item>
+    <item >item 5</item>
+</string-array>
+</resources>
